@@ -58,25 +58,25 @@ fc_rest = st.number_input("Fréquence cardiaque au repos", min_value=0, max_valu
 
 st.divider()
 
-zone1_max = fc_rest + 0.6 * (fc_max - fc_rest)
-zone2_max = fc_rest + 0.7 * (fc_max - fc_rest)
-zone3_max = fc_rest + 0.8 * (fc_max - fc_rest)
-zone4_max = fc_rest + 0.9 * (fc_max - fc_rest)
+zone1_max = round(fc_rest + 0.6 * (fc_max - fc_rest))
+zone2_max = round(fc_rest + 0.7 * (fc_max - fc_rest))
+zone3_max = round(fc_rest + 0.8 * (fc_max - fc_rest))
+zone4_max = round(fc_rest + 0.9 * (fc_max - fc_rest))
 
 st.subheader("Zones 1")
-st.write(f"Zone 1: {0} - {zone1_max}")
+st.write(f"{0} - {zone1_max}")
 
 st.subheader("Zones 2")
-st.write(f"Zone 2: {zone1_max} - {zone2_max}")
+st.write(f"{zone1_max} - {zone2_max}")
 
 st.subheader("Zones 3")
-st.write(f"Zone 3: {zone2_max} - {zone3_max}")
+st.write(f"{zone2_max} - {zone3_max}")
 
 st.subheader("Zones 4")
-st.write(f"Zone 4: {zone3_max} - {zone4_max}")
+st.write(f"{zone3_max} - {zone4_max}")
 
 st.subheader("Zones 5")
-st.write(f"Zone 4: {zone4_max} - {fc_max}")
+st.write(f"{zone4_max} - {fc_max}")
 
 
 
