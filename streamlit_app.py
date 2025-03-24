@@ -38,17 +38,17 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.header("Calcule tes zones d'entrainement")
+st.header("Les zones d'entrainement")
 
-st.text("Tu peux calculer tes zones d'entrainement sur la base de ta fréquence cardique au repos et ta fréquence cardiaque maximale")
+st.text(" Les zones d'entrainement sont calculées sur la base de la fréquence cardiaque au repos et de la fréquence cardiaque maximale.")
 
-st.text("Réalise 6 minutes à intensité maximale en côte pour obtenir ta fréquence cardiaque maximale. Tu peux aussi prendre la FC max la plus élevée à ce jour")
+st.text("La fréquence cardiaque maximale est obtenue en réalisant un test à intensité maximale en côte durant 6 minutes. Par défaut, la FC de repos la plus haute à ce jour peut être prise.")
 
-st.text("Mesure ta fréquence cardiaque au repos le matin au réveil. Ou prends la FC la plus basse à ce jour")
+st.text("La fréquence cardiaque de repos se mesure le matin au réveil. Par défaut, la FC de repos la plus basse à ce jour peut être prise")
 
-st.text("Les zones d'entrainement sont basées sur la fréquence cardiaque de réserve. C'est la différentre entre ta FC max et ta FC de repos.")
+st.text("Les zones d'entrainement sont basées sur la fréquence cardiaque de réserve. C'est la différentre entre la fréquence cardiaque maximale et la fréquence cardiaque de repos.")
 
-st.text("La Fréquence cardiaque maximale est personelle et ne peut pas être estimée des formules générales telles que 220 - âge")
+st.text("La Fréquence cardiaque maximale est personnelle et ne peut pas être estimée par des formules générales telles que 220 - âge.")
 
 
 st.divider()
